@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Encriptador.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="/AluraONE/ChallengeEncriptador/encriptado.png" type="image/x-icon">
+</head>
+
+<body>
+    <header></header>
+
+    <img src="/AluraONE/ChallengeEncriptador/Frame 6.png" alt="Logo de la escuela ALURA" class="logo" />
+    
+        <section class="container">
+            <div class="encriptar">
+                <textarea class="text-area" id="text-area" cols="30" rows="10"
+                    placeholder="Escribe o peqa el texto aquí">
+</textarea>
+            </div>
+        </section>
+
+        <div class="terminos">
+            <p>Solo letras minúsculas y sin acentos.</p>
+        </div>
+
+        <div class="botones">
+            <button class="btnencriptar" type="button" onclick="encriptar()">Encriptar</button>
+
+            <input class="btndesencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+            </input>
+        </div>
+
+        <section class="encriptado">
+                        <div class="mensajeEncriptado" id="mensajeEncriptado">
+                <!--<textarea class="mensaje" name="mensaje" id="mensaje" cols="20" rows="10"></textarea>-->
+                <img src="/AluraONE/ChallengeEncriptador/—Pngtree—reading festival magnifying glass studying_4746893.png" alt="personaje con lupa"/>
+               <h2 id="titulo-mensaje">Aún no has escrito nada</h2>
+                <p id="parrafo">Ingresa el texto que desea encriptar</p>
+               <!-- <button class="copiar" type="button">Copiar</button>-->
+            </div>
+        </section>
+   
+</body>
+<script src="Encriptador.js"></script>
+
+</html>
